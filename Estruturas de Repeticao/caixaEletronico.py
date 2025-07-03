@@ -18,5 +18,5 @@ while operacao != "sair":
 
 
 
-print(f" Seu saldo era: R$ {saldo:.2f} ")
-print(f" Seu novo saldo é: R$ {saldo_atual:.2f} ")
+print(f"Seu saldo era: R$ {saldo:.2f}")
+print(f"Seu novo saldo é: R$ {saldo_atual:.2f}")
