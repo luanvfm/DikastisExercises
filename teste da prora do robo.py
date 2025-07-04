@@ -1,9 +1,9 @@
-#ESSE ARQUIVO SERVE PARA COLOCAR CODIGOS CORRIGIDOS E COMPARAR COM O MEU
-n = int(input())
+dic_estudante = {
+    "nome": "Fulano",   # "nome" é a chave, "Fulano" é o valor 
+    "nota": 8,          # "nota" é a chave, 8 é o valor 
+    "ponto": 1          # "ponto" é a chave, 1 é o valor 
+}
 
-a, b = 0, 1 
-a, b = b, a + b
+dic_estudante.update({"idade": "19"})
 
-while a <= n:
-    print(a)
-    a, b = b, a + b
+print(dic_estudante)
