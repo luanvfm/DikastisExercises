@@ -14,7 +14,7 @@ while nome_aluno != "" and nome_aluno != "fim":
     nome_aluno = input("Digite o nome do aluno ou \"fim\" para terminar o programa: ")
     
 lista = list(zip(notas, nomes))
-lista_ordenada = sorted(lista, reverse=True)
+lista_ordenada = sorted(lista, reverse=True) #reverse = decrescente (maior pro menor)
 
 for item in lista_ordenada:
     nome_aluno = item[1]
